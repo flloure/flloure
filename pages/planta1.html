@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="An interactive getting started guide for Damage Control Documents.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <script defer src="../js/planta.js"></script>
+
+        <title>CCD System - Planta</title> 
+    </head>  
+    <body>
+        <div class="w3-sidebar w3-bar-block w3-light-grey w3-card" style="width:190px">
+            <a href="../index.html" class="w3-bar-item w3-button" style="border-bottom: solid black 1px"><i class="fa fa-home"></i> <span class="user"></span></a>
+            <a href="../pages/planta1.html" class="w3-bar-item w3-button w3-padding-16 w3-green">Unidade de síntese de amônia</a>
+            <a href="../pages/planta2.html" class="w3-bar-item w3-button w3-padding-16">Unidade de hidrotratamento</a>
+            <a href="../pages/planta3.html" class="w3-bar-item w3-button w3-padding-16">Unidade de destilação de óleo</a>
+            <a href="../pages/planta4.html" class="w3-bar-item w3-button w3-padding-16">Unidade de craqueamento de fluido catalítico</a>
+            <a href="../pages/planta5.html" class="w3-bar-item w3-button w3-padding-16">Unidade de craqueamento a vapor de etileno</a>
+        </div>
+        <div class="w3-container" style="margin-left:190px">
+            <img alt="senai_logo" src="../images/logosenai.png" style="width: 70px;margin-top:11px">
+            <h2>Unidade de síntese de amônia</h2>
+            
+            <!--Sumário do processo-->
+            <form>
+                <div class="w3-container w3-cell"><b>Sumário do processo</b><br>
+                    <textarea style="width:1030px; height:300px;text-align: justify;">
+    The main objective of ammonia synthesis unit is to produce anhydrous (water free) ammonia by adding nitrogen to hydrogen in the molar ratio of 1:3.
+
+    N2 + 3 H2 → 2NH3
+
+    The majority of ammonia production plants are currently using natural gas, which mostly consists of methane, as the primary feedstock to generate hydrogen by using a catalytic steam reformer. 
+    Syngas from reformer is first compressed and heated before entering the converter. The reaction is exothermic. Increase in temperature will accelerate reaction time and lower ammonia equilibrium at the same time. The reaction rate also increases with pressure, which means the probability of runaway reactions is higher. It is important to keep the optimal condition to maximum ammonia conversion.                     
+    Effluent gas from the converter is condensed by refrigeration to separate out liquid ammonia as the final product. Small portion of synthesis gas that is not converted is recycled back to the compressor for further reaction.
+                    </textarea>
+                </div>
+                <br>
+            </form> 
+
+            <!--Lista de sistemas-->
+            <table style="margin-left: 15px">
+                <caption style="text-align: left"><b>Lista de sistemas</b></caption>
+                <tr>
+                    <th style="width: 40px">#</th>
+                    <th style="width: 300px">Sistema</th>
+                </tr>
+                <tr>
+                    <td>01</td>
+                    <td><a href="../pages/loop1.html">Synthesis gas feed</a></td>
+                </tr>
+                <tr>
+                    <td>02</td>
+                    <td>Converter</td>
+                </tr>
+                <tr>
+                    <td>03</td>
+                    <td>Anhydrous ammonia</td>
+                </tr>
+                <tr>
+                    <td>04</td>
+                    <td>Syngas purge system</td>
+                </tr>
+                <tr>
+                    <td>05</td>
+                    <td>Hydrogen recovery section (HRU)</td>
+                </tr>
+                <tr>
+                    <td>06</td>
+                    <td>Lean ammonia solution</td>
+                </tr>
+                <tr>
+                    <td>07</td>
+                    <td>Rich ammonia solution</td>
+                </tr>
+                <tr>
+                    <td>08</td>
+                    <td>Recovered hydrogen</td>
+                </tr>
+                </table>
+                <br>
+                <button style="margin-left: 15px">Adicionar novo Sistema</button>   
+        </div>
+   
+    </body>
+<html>

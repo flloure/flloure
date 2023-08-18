@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>   
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="An interactive getting started guide for Damage Control Documents.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <script defer src="../js/planta.js"></script>
+
+        <title>CCD System - Sistema</title>  
+    </head>  
+    <body>   
+        <div class="w3-sidebar w3-bar-block w3-light-grey w3-card" style="width:195px;">
+            <a href="../pages/planta1.html" class="w3-bar-item w3-button" style="border-bottom: solid black 1px"><i class="fa fa-home"></i> <span class="user"></a>
+            <a href="../pages/loop1.html" class="w3-bar-item w3-button w3-padding-16">Informações Gerais</a>
+            <a href="../pages/loop2.html" class="w3-bar-item w3-button w3-padding-16">Equipamentos e Tubulações</a>
+            <a href="../pages/loop3.html" class="w3-bar-item w3-button w3-padding-16">Históricos</a>
+            <a href="../pages/loop4.html" class="w3-bar-item w3-button w3-padding-16">Tratamento Químico</a>
+            <a href="../pages/loop5.html" class="w3-bar-item w3-button w3-padding-16 w3-green">Mecanismos e IOWs</a>
+            <a href="../pages/loop6.html" class="w3-bar-item w3-button w3-padding-16">Sistemas de Segurança</a>
+            <a href="../pages/loop7.html" class="w3-bar-item w3-button w3-padding-16">Recomendações</a>
+        </div>
+
+        <div class="w3-container" style="margin-left:190px">  
+            <!--Título-->
+            <h2>Corrosion Control Document System</h2>
+            <h4><b>Sistema #01 - Compressão de gás de carga</b></h4>
+
+            <!--Monitoramento online-->
+            <form>
+                <div class="w3-container w3-cell"><b>Monitoramento de corrosão online</b><br>
+                    <textarea style="width:900px; height:150px;text-align: justify;">Não há ponto de corrosão online. O monitoramento de corrosão é offiline, seguindo os planos...</textarea>
+                </div>
+                <br>
+            </form> 
+
+            <!--Mecanismos de dano-->
+            <table style="margin-left: 15px">
+                <caption style="text-align: left"><b>Mecanismos de dano</b></caption>
+                <tr>
+                    <th style="width: 150px">Circuito</th>
+                    <th style="width: 200px">Mecanismo</th>
+                    <th style="width: 150px">Áreas susceptíveis</th>
+                    <th style="width: 150px">Precursor</th>
+                    <th style="width: 400px">Observações</th>
+                </tr>
+                <tr>
+                    <td>Circuito 01</td>
+                    <td>Corrosão por ácido clorídrico</td>
+                    <td>Equipamentos em aço inox</td>
+                    <td>HCl, Umidade</td>
+                    <td>Esse mecanismo pode ser ativado em decorrência de falha ou insuficiência de injeção de...Recomenda-se exame visual nas regiões acessíveis, Eddy Current nos feixes dos trocadores, radiografia nos acessórios de tubulação, drenos e deadlegs.</td>
+                </tr>
+                <tr>
+                    <td>Circuito 01</td>
+                    <td>XXXXXXXXXXX</td>
+                    <td>XXXXXXXXXXX</td>
+                    <td>XXXXXXXXXXX</td>
+                    <td>XXXXXXXXXXX</td>
+                </tr>
+                <tr>
+                    <td>Circuito 02</td>
+                    <td>XXXXXXXXXXX</td>
+                    <td>XXXXXXXXXXX</td>
+                    <td>XXXXXXXXXXX</td>
+                    <td>XXXXXXXXXXX</td>
+                </tr>
+            </table>
+            <button style="margin-left: 15px;">Adicionar Mecanismo</button>
+
+            <!--Lista de IOWs-->
+            <br><br><br>
+            <table style="margin-left: 15px">
+                <caption style="text-align: left"><b>Lista de IOWs</b></caption>
+                <tr>
+                    <th style="width: 150px">Circuito</th>
+                    <th style="width: 150px">Parâmetro</th>
+                    <th style="width: 150px">Limite inferior</th>
+                    <th style="width: 150px">Limite superior</th>
+                    <th style="width: 150px">Unidade de medida</th>
+                    <th style="width: 400px">Observações</th>
+                </tr>
+                <tr>
+                    <td>Circuito 01</td>
+                    <td>Cloretos</td>
+                    <td>NA</td>
+                    <td>10</td>
+                    <td>ppm</td>
+                    <td>Aumenta a contaminação na carga e consequentemente a possibilidade de corrosão</td>
+                </tr>
+                <tr>
+                    <td>Circuito 01</td>
+                    <td>Temperatura</td>
+                    <td>NA</td>
+                    <td>60</td>
+                    <td>ºC</td>
+                    <td>XXXXXXXXXXX</td>
+                </tr>
+                <tr>
+                    <td>Circuito 02</td>
+                    <td>XXXXXXXXXXX</td>
+                    <td>XXXXXXXXXXX</td>
+                    <td>XXXXXXXXXXX</td>
+                    <td>XXXXXXXXXXX</td>
+                    <td>XXXXXXXXXXX</td>
+                </tr>
+            </table>
+            <button style="margin-left: 15px;">Adicionar IOW</button>
+
+        </div>
+    </body>
+<html>

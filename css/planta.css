@@ -1,0 +1,18 @@
+.planta-form {
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.planta_header img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.planta_header h1 {
+    color: #333;
+    font-size: 1.3em;
+    margin-bottom: 20px;
+} 

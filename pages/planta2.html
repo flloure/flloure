@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>CCD System - Planta</title> 
+        <meta name="description" content="An interactive getting started guide for Damage Control Documents.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script defer src="../js/planta.js"></script>
+    </head>  
+    <body>
+        
+       <div class="w3-sidebar w3-bar-block w3-light-grey w3-card" style="width:190px">
+        <a href="../index.html" class="w3-bar-item w3-button" style="border-bottom: solid black 1px"><i class="fa fa-home"></i> <span class="user"></span></a>
+        <a href="../pages/planta1.html" class="w3-bar-item w3-button w3-padding-16">Unidade de síntese de amônia</a>
+        <a href="../pages/planta2.html" class="w3-bar-item w3-button w3-padding-16 w3-green">Unidade de hidrotratamento</a>
+        <a href="../pages/planta3.html" class="w3-bar-item w3-button w3-padding-16">Unidade de destilação de óleo</a>
+        <a href="../pages/planta4.html" class="w3-bar-item w3-button w3-padding-16">Unidade de craqueamento de fluido catalítico</a>
+        <a href="../pages/planta5.html" class="w3-bar-item w3-button w3-padding-16">Unidade de craqueamento a vapor de etileno</a>
+        </div>
+
+        <div class="w3-container" style="margin-left:190px">
+        <img alt="Braskem_Logo" src="../images/logosenai.png" style="width: 70px;margin-top:11px">
+        <h2>Unidade de hidrotratamento</h2>
+            
+            <!--Sumário do processo-->
+            <form>
+                <div class="w3-container w3-cell"><b>Sumário do processo</b><br>
+                    <textarea style="width:1030px; height:300px;text-align: justify;">
+    The objective of the hydrotreating process is to remove sulfur as well as other unwanted compounds due to increase product specifications, low sulfur limitation for downstream process, and environmental considerations. In this process, sulfur compounds are removed by converting into hydrogen sulfide by reaction with hydrogen in the presence of catalyst. The hydrogen sulfide produced can be easily removed from the product gas stream, for example by an amine absorber. In this way, hydrogen sulfide is recovered as a highly concentrated stream and can be further converted into elemental sulfur via the Claus process.
+
+    Two basic processes are applied in hydrotreating, the liquid phase process for kerosene, heavier straight-run fraction and vapor phase process for light straight-run fractions. Both processes use the same basic configuration: the feedstock is mixed with hydrogen-rich makeup gas and recycle gas. The mixture is heated by heat exchange with reactor effluent and by a furnace before it enters a catalytic reactor. In the reactor, the sulfur and nitrogen compounds present in the feedstock are converted into hydrogen sulfide and ammonia respectively. The olefins present are saturated with hydrogen to become diolefins and part of the aromatics will be hydrogenated. If all aromatics need to be hydrogenated, a higher pressure is needed in the reactor compared to the conventional operating mode.
+
+    The main reactions are:
+    — Hydrogenation of sulfur compounds—Sulfur is combined with hydrogen to form H2S.
+    — Hydrogenation of nitrogen compounds—Nitrogen compounds are partly converted into ammonia (NH3) in the reactor under normal hydrodesulphurization conditions.
+    — Hydrogenations of chlorides—Organic and inorganic chloride compounds are converted to hydrogen chloride (HCl).
+    — Hydrogenation of unsaturated compounds—Olefins and aromatics compounds are hydrogenated to paraffins.
+    — Hydrogenation of oxygen compounds—Naphthenic acids and phenols are the best known types of oxygen compounds present in mineral oils and these are converted into hydrocarbons and water.
+                    </textarea>
+                </div>
+                <br>
+            </form> 
+
+            <!--Lista de sistemas-->
+            <table style="margin-left: 15px">
+                <caption style="text-align: left"><b>Lista de sistemas</b></caption>
+                <tr>
+                    <th style="width: 40px">#</th>
+                    <th style="width: 400px">Sistema</th>
+                </tr>
+                <tr>
+                    <td>01</td>
+                    <td>Cold feed into preheat exchanger train</td>
+                </tr>
+                <tr>
+                    <td>02</td>
+                    <td>Hot feed</td>
+                </tr>
+                <tr>
+                    <td>03</td>
+                    <td>Charge heater</td>
+                </tr>
+                <tr>
+                    <td>04</td>
+                    <td>Hydrotreater reactor and hot effluent exchangers</td>
+                </tr>
+                <tr>
+                    <td>05</td>
+                    <td>Cooled reactor effluent to high pressure separator</td>
+                </tr>
+                <tr>
+                    <td>06</td>
+                    <td>Separator liquids</td>
+                </tr>
+                <tr>
+                    <td>07</td>
+                    <td>Stabilizer bottoms</td>
+                </tr>
+                <tr>
+                    <td>08</td>
+                    <td>Sour water</td>
+                </tr>
+                <tr>
+                    <td>09</td>
+                    <td>Amine absorber</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Recycle hydrogen</td>
+                </tr>
+                </table>
+                <br>
+                <button style="margin-left: 15px">Adicionar novo Sistema</button>   
+        </div>
+   
+    </body>
+<html>

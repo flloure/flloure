@@ -14,7 +14,7 @@ const validateInput = ({target}) => {
 const handleSubmit = (event) => {
     event.preventDefault();
     localStorage.setItem('user', input.value);
-    window.location = 'pages/planta.html';
+    window.location = 'pages/planta1.html';
 }
 
 input.addEventListener('input', validateInput);
